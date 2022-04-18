@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <title>Platzi Travel</title>
+</head>
+
+<body class="font-Monserrat">
+    <nav></nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+        <div id="home">
+            <div class="w-full h-3/4">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center ">
+                    <input type="search" class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12"  placeholder="San Francisco"
+                        name="" id="">
+                    <button
+                        class="w-48 rounded-full text-lg text-primary shadow-sm font-semibold p-4 bg-white transition transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110" >Explorar</button>
+                </div>
+                <div class="w-full h-full">
+                    <img src="./img/sanFrancisco.jpg" alt="San Francisco City">
+                </div>
+            </div>
+        </div>
+        <div class="p-6" id="recomendados">
+            <p class="text-3xl font-semibol text-primary">Recomendados</p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+                <div class="Card">
+                    <div class="Card--cover bg-norway"></div>
+                    <div class="Card--info">
+                      <p class="Card--info__title">Norway</p>
+                      <p class="Card--info__subtitle">Paisajes increaibles</p>
+                    </div>
+                  </div>
+                  <div class="Card">
+                    <div class="Card--cover bg-new_york"></div>
+                    <div class="Card--info">
+                      <p class="Card--info__title">New York</p>
+                      <p class="Card--info__subtitle">La gran manzana</p>
+                    </div>
+                  </div>
+                  <div class="Card">
+                    <div class="Card--cover bg-yosemite"></div>
+                    <div class="Card--info">
+                      <p class="Card--info__title">Yosemite</p>
+                      <p class="Card--info__subtitle">Una pausa del mundo</p>
+                    </div>
+                  </div>
+            </div>
+    
+        </div>
+
+        <div class="px-6 h-full w-full" id="rentas_destacadas">
+            <p class="text-3xl text-primary font-semibold pb-6 mt-2">Rentas destacadas</p>
+            <div class="w-full h-full flex flex-col space-y-4 items-center justify-center">
+                <div class="w-full h-96 bg-chicago bg-cover rounded-xl">
+                    <p class="CardTitle">Chicago</p>
+                    <p class="text-sm pl-8 text-black mr-24">2 habitaciones, baño y cocina</p>
+                </div>
+                <div class="w-full h-96 bg-chicago bg-cover rounded-xl">
+                    <p class="CardTitle">Chicago</p>
+                    <p class="text-sm pl-8 text-black mr-24">2 habitaciones, baño y cocina</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="faq"></div>
+    </section>
+    <footer></footer>
+</body>
+
+</html>
